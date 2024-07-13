@@ -20,7 +20,7 @@ const FEATURES = [
     icon: RocketLaunchIcon,
     title: "Our Legacy",
     description:
-      "For more than three decades, we have built a reputation for excellence in custom tailoring. Our skilled artisans take pride in every stitch, ensuring that each garment we create is a masterpiece of fit and style. From elegant suits to sophisticated dresses, our bespoke services are tailored to perfection, making us the preferred choice for discerning customers.",
+      "For more than three decades, we have built a reputation for excellence in custom tailoring. Our skilled artisans take pride in every stitch, ensuring that each garment we create is a masterpiece of fit and style. From elegant shirts and trousers to sophisticated dresses, our bespoke services are tailored to perfection, making us the preferred choice for discerning customers.",
   },
   {
     icon: SunIcon,
@@ -68,7 +68,7 @@ export function OnlineCourse() {
             variant="lead"
             className="mb-5 px-4 text-left text-lg !text-gray-500 lg:px-0"
           >
-            Welcome to Yazh Fabrics and Apparels, your premier destination for uniform readymade solutions and uniform fabrics. For over 40 years, we have been the leading tailors in our town, known for our dedication to craftsmanship, quality, and personalized service. Our journey began with a commitment to provide bespoke tailoring services that cater to the unique needs and preferences of each client.    
+            Welcome to Yazh Fabrics and Apparels, your premier destination for school and corporate uniform fabrics and tailoring solutions. For over 40 years, we have been the leading tailors in our town, known for our dedication to craftsmanship, quality, and personalized service. Our journey began with a commitment to provide bespoke tailoring services that cater to the unique needs and preferences of each client.    
           </Typography>
           <div className="col-span-2 grid grid-cols-1 ">
             {FEATURES.map(({ icon, title, description }) => (

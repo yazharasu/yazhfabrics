@@ -83,7 +83,7 @@ export function Navbar() {
           <div onClick={() => scrolltoHash('About_us')} > About Us </div>
           <div onClick={() => scrolltoHash('Services')} > Our Services </div>
           <div onClick={() => scrolltoHash('Contact')} > Contact Us </div>
-          <NavItem wt={true} >
+          <NavItem wt={true} href="https://wa.me/8270594195">
             <IconButton variant="text" color="green" size="sm">
               <i className="fa-brands fa-whatsapp text-base" />
             </IconButton>

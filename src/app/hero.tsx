@@ -6,14 +6,14 @@ function Hero() {
   return (
     <div id="Hero" className="relative min-h-screen w-full bg-[url('/image/uniform_group.jpg')] bg-cover bg-no-repeat">
     <div className="absolute inset-0 h-full w-full bg-gray-900/60" />
-    <div className="grid min-h-screen px-8">
-      <div className="container relative z-10 my-auto mx-auto grid place-items-center text-center">
+    <div className="flex min-h-screen px-8">
+      <div className="container relative z-10 my-auto mx-auto  flex flex-col  place-items-center text-center">
         <Typography
           variant="h1"
           color="white"
           className="md:max-w-full lg:max-w-3xl"
         >
-          Corporate and School Uniform Fabric Supplier and Stitching Solutions Provider
+          Corporate and School Uniform Fabric Supplier and Tailoring Solutions Provider
         </Typography>
         <Typography
           variant="lead"
